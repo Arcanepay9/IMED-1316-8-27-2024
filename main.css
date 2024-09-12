@@ -1,3 +1,31 @@
 @charset "utf-8";
 /* CSS Document */
-
+*{
+	box-sizing: border-box
+}
+body
+{
+	background: url("images/background.jpg") no-repeat fixed top right;
+	
+}
+#container{
+	width: 800px;
+		margin: 0 auto;
+}
+.left{
+	width: 360px;
+	height: 950px;
+	background-color:rgba(185,185,185,.5);
+	border-radius: 20px;
+	float: left;
+	padding:15px;
+	margin: 0px 10px
+}
+.right{
+	width: 380px;
+	height: 300px;
+	background-color:rgba(185,185,185,.5);
+	border-radius: 20px;
+	padding:15px;
+	float: left;
+}

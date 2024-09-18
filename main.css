@@ -21,8 +21,8 @@ a:link{
 }
 
 
-a hover{
-	font-size: 1.2em;
+a:hover{
+	font-size: 1.8em;
 }
 #container{
 	width: 800px;

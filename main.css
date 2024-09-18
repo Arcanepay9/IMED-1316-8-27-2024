@@ -8,6 +8,13 @@ body
 	background: url("images/background.jpg") no-repeat fixed top right;
 	
 }
+a:link{
+	color:darkgray;
+	text-decoration: none;
+}
+a hover{
+	font-size: 1.2em;
+}
 #container{
 	width: 800px;
 		margin: 0 auto;

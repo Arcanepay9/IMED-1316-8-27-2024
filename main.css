@@ -11,7 +11,16 @@ body
 a:link{
 	color:darkgray;
 	text-decoration: none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+
 }
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
 a hover{
 	font-size: 1.2em;
 }

@@ -8,24 +8,36 @@
  <body>
 <div id="container">
 
+	<canvas id="myCanvas" width="800" height="15" style="border:1px color:rgba(255,255,255,1.00);"></canvas>
+	<script>
+const canvas = document.getElementById("myCanvas");
+const ctx = canvas.getContext("2d");
+ctx.fillStyle = "grey";
+ctx.fillRect(0,0,800,15);
+</script>
 	
-	<nav style="color:white; background: #757575">My store</nav>;
-	<a href="mockup.html">Mockups</a>
+	<ul>
+  <li><a href="#mockup.html">Mockups</a></li>
+  <li><a href="#About Arcane">About Arcane</a></li>
+  <li><a href="#contact">Contact</a></li>
+ 
+</ul>
+
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
-	
 
-	
-	<header><h1 style="color:white; font-size: 40px;" class="bebas-neue-regular"> 
+<header><h1 style="color:white; font-size: 40px;" class="bebas-neue-regular"> 
 		<b>About Arcane</b></h1></header>
-</div>
-	<p style="color:white;">This is a clothing brand called: <i>Arcane</i>, where fashion meets your style or can bring out a new style for you. Born from a passion for crafting unique and high quality pieces, <i>Arcane</i> is more than just a clothing brand — it's a journey to spread a message or a positive message on each clothing piece. At Arcane, we believe in the power of clothing to tell a story or to bring a reminder to you as you wear these pieces. 
+<p style="color:white;">This is a clothing brand called: <i>Arcane</i>, where fashion meets your style or can bring out a new style for you. Born from a passion for crafting unique and high quality pieces, <i>Arcane</i> is more than just a clothing brand — it's a journey to spread a message or a positive message on each clothing piece. At Arcane, we believe in the power of clothing to tell a story or to bring a reminder to you as you wear these pieces. 
 Quality is at the heart of everything we do. We source the finest materials and work with skilled designers that will go beyond your standards of clothing. Our commitment to sustainability means that we prioritize ethical practices and eco-friendly materials, ensuring that our clothing not only looks good but feels good too.
 <i>Arcane</i> is more than just a brand — it's a community united by a love for fashion.
 </p>
+	<h2 style="color:white;">My Clothes I Made</h2>
+	 </div>
 	
-<h2 style="color:white;">My Clothes I Made</h2>
+	
+
 	 <div class="row">
 	 <div class="left">
 		 <img src="images/shirt.png" alt="Shirt" usemap="#info" style="width:300px">
@@ -44,7 +56,34 @@ function myFunction() {
   document.getElementById("demo").innerHTML = "https://arcaneaa.shop/";}
 document.getElementById("demo").style.color = "white";
 		 </script>
-		 
+			
+		 <h4 style="color:white; font-size: 20px;"> Choose your favorite product</h4>
+			<form>
+  <label style="color: white" for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label style="color: white" for="lname">Last name:</label><br>
+  <input type="text" id="lname" name="lname">
+</form>
+			<form>
+  <input type="checkbox" id="Beauty of Life" name="Beauty of Life" value="Beauty of Life">
+  <label style="color: white" for="Beauty of Life"> Beauty of Life</label><br>
+  
+				<input type="checkbox" id="Arcane Sweatpants" name="Arcane Sweatpants" value="Arcane Sweatpants">
+  <label style="color: white" for="Arcane Sweatpants"> Arcane Sweatpants</label><br>
+  
+				<input type="checkbox" id="Arcane City Shorts" name="Arcane City Shorts" value="Arcane City Shorts">
+  <label style="color: white" for="Arcane City Shorts"> Arcane City Shorts</label>
+  
+				<input type="checkbox" id="Arcane Satin line Beanie" name="Arcane Satin line Beanie" value="Arcane Satin line Beanie">
+  <label style="color: white" for="Arcane Satin line Beanie"> Arcane Satin line Beanie</label><br>
+ 
+				<input type="checkbox" id="Ring Watches" name="Ring Watches" value="Ring Watches">
+  <label style="color: white" for="Ring Watches"> Ring Watches</label><br>
+  
+				<input type="checkbox" id="Iso Oversized acid wash tee" name="Iso Oversized acid wash tee" value="Iso Oversized acid wash tee">
+  <label style="color: white" for="Iso Oversized acid wash tee"> Iso Oversized acid wash tee</label><br>		
+			<input style="background:rgba(173,254,255,1.00)" type="submit" value="Submit">
+			</form> 
 		 </div>
 		<div class="right"><h3 style="color:white;">About the Products</h3>
 	<p2 style="color:white;"><b>Beauty of Life shirt:</b>
@@ -53,7 +92,10 @@ The pants have white strips on the side with 2 custom designs. The first one is 
 <b>Arcane City Shorts:</b>
 The shorts have a city design of San Antonio, which is where I'm from. The spider idea was from a anime called Hunter X Hunter and the AA design is my logo for my brand. 
 </p2>
-	 <table>
+	
+			
+			
+			<table>
   <tr>
     <th>Clothing</th>
     <th>Sizes</th>
@@ -85,22 +127,36 @@ The shorts have a city design of San Antonio, which is where I'm from. The spide
     <td><span>&#128178;</span>30</td>
   </tr>
 		</table>
-			<h4 style="color:white; font-size: 20px;"> Upcoming products</h4>
+			
+	<h4 style="color:white; font-size: 20px;"> Upcoming products</h4>
 			<ol>
   <li style="color:white;">Arcane Satin line Beanie</li>
-  <li style="color:white;">Ring Watches</li>
   <li style="color:white;">Iso Oversized acid wash tee</li>
-</ol>
+  <li style="color:white;">Ring Watches</li>
+			</ol>
 			<h4 style="color:white; font-size: 20px;"> Upcoming products ideas</h4>
 			<ul>
-  <li style="color:white;">Arcane Hoodie with the crosses on front</li>
-  <li style="color:white;">Beauty of Life Hoodie</li>
-  <li style="color:white;">Iso Shorts</li>
   <li style="color:white;">Arcane Pajamas</li>
+				<li style="color:white;">Arcane Hoodie with the crosses on front</li>
+  
+				<li style="color:white;">Beauty of Life Hoodie</li>
+  
+  
 </ul>
-		<iframe src="Upcoming.html" height="200" width="500" title="Upcoming"></iframe>
-			
-
+		
+			<h4 style="color:white; font-size: 20px;"> Video of the upcoming Iso Tee (will soon be on my site)</h4>	
+		
+			<video width="320" height="240" controls>
+  <source src="images/83ed3cab-7b80-4ae8-b2e9-ea24e2436aae.mp4" type="video/mp4">
+  <source src="images/83ed3cab-7b80-4ae8-b2e9-ea24e2436aae.mp4" type="video/ogg">
+	
+</video>
+<video width="320" height="240" controls>
+			<source src="images/02515e62-46e9-4a6a-a4af-393025444081.mp4" type="video/mp4">
+<source src="images/02515e62-46e9-4a6a-a4af-393025444081.mp4" type="video/ogg">
+			</video>	 
+	<iframe src="Upcoming.html" height="200" width="500" title="Upcoming"></iframe>
+		 
 		 </div> 
 	 
 	 </div>

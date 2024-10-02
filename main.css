@@ -3,11 +3,32 @@
 *{
 	box-sizing: border-box
 }
+#container{width: 500px; margin:0 auto;}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  background-color:rgba(117,117,117,1.00);
+}
+
 body
+
 {
 	background: url("images/background.jpg") no-repeat fixed top right;
 	
 }
+
 a:link{
 	color:darkgray;
 	text-decoration: none;
@@ -30,7 +51,7 @@ a:hover{
 }
 .left{
 	width: 360px;
-	height: 1135px;
+	height: 1430px;
 	background-color:rgba(185,185,185,.5);
 	border-radius: 20px;
 	float: left;
@@ -41,7 +62,7 @@ a:hover{
 }
 .right{
 	width: 380px;
-	height: 750px;
+	height: 1265px;
 	background-color:rgba(185,185,185,.5);
 	border-radius: 20px;
 	padding:15px;
@@ -62,3 +83,4 @@ table, th, td {
 th, td {
   background-color:rgba(255,255,255,1.00);
 }
+

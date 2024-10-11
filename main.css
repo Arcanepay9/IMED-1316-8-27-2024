@@ -3,7 +3,7 @@
 *{
 	box-sizing: border-box
 }
-#container{width: 500px; margin:0 auto;}
+#container{width: 1100px; margin:0 auto;}
 
 ul {
   list-style-type: none;
@@ -51,7 +51,7 @@ a:hover{
 }
 .left{
 	width: 360px;
-	height: 1430px;
+	height: 385px;
 	background-color:rgba(185,185,185,.5);
 	border-radius: 20px;
 	float: left;
@@ -83,4 +83,21 @@ table, th, td {
 th, td {
   background-color:rgba(255,255,255,1.00);
 }
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:rgba(0,0,0,1.00);
+}
+
+.flex-container > div {
+  background-color:rgba(141,141,141,1.00);
+  width: 1000px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+}
+
+
+
 

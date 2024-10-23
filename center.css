@@ -1,0 +1,25 @@
+@charset "utf-8";
+/* CSS Document */
+#container{width: 1100px; margin:0 auto;}
+.Left{
+	width: 375px;
+	height: 150px;
+	background-color:rgba(185,185,185,.5);
+	border-radius: 20px;
+	padding:0px 0px 0px 10px;
+	float:none;
+	margin: 0px 0px 0px 0px;
+	border: thick rgba(255,255,255,1.00) solid;
+	visibility: visible;
+}
+.right{
+	width: 1000px;
+	height: 130px;
+	background-color:rgba(185,185,185,.5);
+	border-radius: 20px;
+	padding:0px 0px 0px 10px;
+	float:none;
+	margin: 0px 0px 0px 0px;
+	border: thick rgba(255,255,255,1.00) solid;
+	visibility: visible;
+}

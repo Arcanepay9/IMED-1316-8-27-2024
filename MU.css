@@ -1,0 +1,17 @@
+@charset "utf-8";
+/* CSS Document */
+#container{width: 1100px; margin:0 auto;}
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:rgba(0,0,0,1.00);
+}
+
+.flex-container > div {
+  background-color:rgba(141,141,141,1.00);
+  width: 1000px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+}

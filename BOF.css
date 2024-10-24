@@ -1,6 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
 #container{width: 1100px; margin:0 auto;}
+
+@media only screen and (min-width: 490px) {
+
 .left{
 	width: 500px;
 	height: 1910px;
@@ -21,4 +24,13 @@
 	margin: 0px 0px 0px 20px;
 	border: thick rgba(255,255,255,1.00) solid;
 	visibility: visible;
+}
+	
+}
+@media only screen and (min-width: 450px)
+{
+	/*phone*/ 
+}
+	@media only screen and (min-width: 490px) and (orientation: portrait){
+		/*portrait phone*/
 }

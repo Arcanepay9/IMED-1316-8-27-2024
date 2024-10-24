@@ -5,8 +5,33 @@
 <title>Jarrell Project</title>
 	<link rel="stylesheet" href="main.css">
 	</head>
- <body>
-<div id="container">
+ 
+	<button onclick="getLocation()">Try It</button>
+	<p id="demo"></p>
+
+	
+	
+	<body>
+
+	 <script>
+const x = document. getElementById ("demo" );
+
+		 function getLocation () {
+if (navigator geolocation) {
+navigator.geolocation.getCurrentPosition(showPosition);
+}
+else {
+x. innerHTML = "Geolocation is not supported by this browser.";
+		 }
+		 }
+function showPosition (position) {
+x.innerHTML = "Latitude:" + position.coords.latitude +
+"<br>Longitude: " + position.coords.longitude;
+</script>
+
+	 
+	 
+	 <div id="container">
 
 	<canvas id="myCanvas" width="800" height="15" style="border:1px color:rgba(255,255,255,1.00);"></canvas>
 	<script>

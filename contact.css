@@ -10,3 +10,29 @@
 	@media only screen and (min-width: 490px) and (orientation: portrait){
 		/*portrait phone*/
 }
+li a {
+  display: block;
+  padding: 8px;
+  
+}
+
+a:link{
+	color:darkgray;
+	text-decoration: none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+a:hover{
+	font-size: 1.8em;
+}
+#container{
+	width: 800px;
+		margin: 0 auto;
+}

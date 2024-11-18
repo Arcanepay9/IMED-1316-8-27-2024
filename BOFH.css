@@ -1,0 +1,51 @@
+@charset "utf-8";
+/* CSS Document */
+#container{width: 1100px; margin:0 auto;}
+.left{
+	width: 500px;
+	height: 1250px;
+	background-color:rgba(185,185,185,.5);
+	border-radius: 20px;
+	float: left;
+	padding:0px 0px 0px 0px;
+	margin: 0px 100px;
+	border: thick rgba(255,255,255,1.00) solid;
+}
+.right{
+	width: 375px;
+	height: 120px;
+	background-color:rgba(185,185,185,.5);
+	border-radius: 20px;
+	padding:0px 10px 0px 10px;
+	float: left;
+	margin: 0px 0px 0px 20px;
+	border: thick rgba(255,255,255,1.00) solid;
+	visibility: visible;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  
+}
+
+a:link{
+	color:darkgray;
+	text-decoration: none;
+	font-family:Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+
+}
+.bebas-neue-regular {
+  font-family: "Bebas Neue", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+a:hover{
+	font-size: 1.8em;
+}
+#container{
+	width: 800px;
+		margin: 0 auto;
+}

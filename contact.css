@@ -10,6 +10,13 @@
 	@media only screen and (min-width: 490px) and (orientation: portrait){
 		/*portrait phone*/
 }
+body
+
+{
+	background: url("images/background.jpg") no-repeat fixed top right;
+	
+}
+
 li a {
   display: block;
   padding: 8px;

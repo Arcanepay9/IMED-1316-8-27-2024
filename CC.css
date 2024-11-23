@@ -4,7 +4,14 @@
 
 @media only screen and (min-width: 490px) {
 
-.left{
+body
+
+{
+	background: url("images/background.jpg") no-repeat fixed top right;
+	
+}
+	
+	.left{
 	width: 500px;
 	height: 2300px;
 	background-color:rgba(185,185,185,.5);

@@ -4,7 +4,14 @@
 
 @media only screen and (min-width: 490px) {
 
-.Left{
+body
+
+{
+	background: url("images/background.jpg") no-repeat fixed top right;
+	
+}
+	
+	.Left{
 	width: 375px;
 	height: 150px;
 	background-color:rgba(185,185,185,.5);

@@ -4,7 +4,14 @@
 
 @media only screen and (min-width: 490px) {
 
-.flex-container {
+body
+
+{
+	background: url("images/background.jpg") no-repeat fixed top right;
+	
+}
+	
+	.flex-container {
   display: flex;
   flex-wrap: nowrap;
   background-color:rgba(77,77,77,1.00);

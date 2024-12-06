@@ -51,6 +51,20 @@ a:link{
   font-style: normal;
 }
 
+.flex-container {
+  display: flex;
+  flex-wrap: nowrap;
+  background-color:rgba(0,0,0,1.00);
+}
+
+.flex-container > div {
+  background-color:rgba(141,141,141,1.00);
+  width: 1000px;
+  margin: 10px;
+  text-align: center;
+  line-height: 100px;
+  font-size: 30px;
+}
 
 a:hover{
 	font-size: 1.8em;
@@ -59,6 +73,14 @@ a:hover{
 	width: 800px;
 		margin: 0 auto;
 }
+table, th, td {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+th, td {
+  background-color:rgba(255,255,255,1.00);
+}
+
 }
 @media only screen and (min-width: 450px)
 {
